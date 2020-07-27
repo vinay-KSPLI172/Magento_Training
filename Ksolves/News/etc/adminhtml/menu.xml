@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+	  <add id="Ksolves_News::ksolves" title="Ksolves" translate="title" module="Ksolves_News" sortOrder="90" dependsOnModule="Ksolves_News" resource="Ksolves_News::ksolves"/>
+	  <add id="Ksolves_News::news" title="News" translate="title" module="Ksolves_News" parent="Ksolves_News::ksolves" sortOrder="50" dependsOnModule="Ksolves_News" resource="Ksolves_News::news"/>
+	  <add id="Ksolves_News::news_allnews" title="All News" translate="title" module="Ksolves_News" parent="Ksolves_News::news" sortOrder="10" dependsOnModule="Ksolves_News" action="news/allnews" resource="Ksolves_News::news_allnews"/>
+	  <add id="Ksolves_News::settings" title="Settings" translate="title" module="Ksolves_News" parent="Ksolves_News::ksolves" sortOrder="60" dependsOnModule="Ksolves_News" resource="Ksolves_News::settings"/>
+	  <add id="Ksolves_News::news_config" title="Configuration" translate="title" module="Ksolves_News" parent="Ksolves_News::settings" sortOrder="10" dependsOnModule="Ksolves_News" action="adminhtml/system_config/edit/section/ksolves_news" resource="Ksolves_News::news_config"/>
+	</menu>
+</config>

@@ -1,0 +1,35 @@
+.ksolves-news .ksg-news-list {
+	padding: 15px;
+	border: 1px solid #ccc;
+	display: block;
+	margin-top: -1px;
+}
+.ksolves-news .ksg-news-list:nth-child(even){
+	background-color:#f1f1f1;
+}
+.ksolves-news .ksg-news-list:nth-child(odd){
+	background-color:#FAFAFA;
+}
+.ksolves-news .ksg-news-title {
+	font-weight:bold;
+	font-size:16px;
+	margin-bottom:5px;
+}
+.ksolves-news .ksg-news-time {
+	font-size:14px;
+	color:#666;
+	font-style:italic;
+}
+.ksolves-news .pager {
+	margin-top:20px;
+	display:flex;
+}
+.ksolves-news .toolbar-amount {
+	margin-right:20px;
+}
+.ksolves-news .ksg-news-desc {
+	margin-top:15px;
+}
+.ksolves-news a:hover {
+	text-decoration:none;
+}
